@@ -6,7 +6,7 @@ It does not contain source code, but provides documentation and links to the rep
 
 ---
 
-##Project Structure
+## Project Structure
 
 The Fidelio project is organized into multiple repositories:
 
