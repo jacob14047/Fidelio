@@ -35,6 +35,3 @@ This project was developed as part of a university group assignment.
 
 ---
 
-## ℹ️ Notes
-
-For the complete and up-to-date source code, please refer to the main implementation repository linked above.
