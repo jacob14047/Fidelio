@@ -42,26 +42,6 @@ Due to GitHub file size limitations, the trained models and datasets are not inc
 You can download the trained models and datasets from Hugging Face:
 https://huggingface.co/jacob14047/Fidelio/
 
-## Preliminary instructions and dependencies:
-
-Since this project is somewhat tied to the fidelio website you should first clone that repository,even though by itself the model works just fine, by doing: git clone https://github.com/Lucas5N/fidelio.git to your IDE of choice
-
-1) download python -m venv .venv
-2) source .venv/bin/activate
-3) pip install fastapi uvicorn pydantic pandas scikit-learn joblib numpy
-
-
-## Downloading and running:
-Since the download and run process is similar for all the models we'll show you how to perform it on the lightest one, the content-based one specifically.
-
-1) go to Models and download contentBased2.pkl
-2) download app.py
-3) download requirements.txt
-4) do: source venv/bin/activate.fish  (Here we're on fish but change this command to make it work for your particular system)
-5) do: python -m uvicorn app:app --reload
-6) Run the fidelio website (you could've had it running before the installation process, it is not time dependent)
-7) Create a profile, add some movies to a list and then go to your profile page and see the recommendations.
-
 
 
 
